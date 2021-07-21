@@ -11,7 +11,8 @@
     <h1 th:text="${#strings.capitalizeWords(title)}"></h1>
 
     <!-- TODO #1 - Use a loop to display job results in a table. -->
-
+    <!--loop thru jobs to display table, display all information from that job selected-->
+    <table th:replace="fragments :: table"></table>
 </div>
 
 </body>
